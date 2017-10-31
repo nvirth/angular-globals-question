@@ -1,8 +1,5 @@
 import { Component, AfterViewInit } from '@angular/core';
 
-// Making the global '$' available for TypeScript usage
-declare var $: any;
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
